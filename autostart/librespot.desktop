@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Spotify Connect
+Comment=Spotify Server
+Icon=applications-other
+Exec=/usr/bin/librespot --name "MagicArch Speakers" --device-type speaker --bitrate 320
+Actions=
+Categories=X-GNOME-Other;

@@ -1,0 +1,19 @@
+[Desktop Entry]
+Version=1.1
+Type=Application
+Name=Thunderbird
+GenericName=Mail Client
+Comment=Send and receive mail with Thunderbird
+Icon=thunderbird
+Exec=kdocker -d 15 /usr/lib/thunderbird/thunderbird %u
+Actions=ComposeMessage;OpenAddressBook;
+MimeType=message/rfc822;x-scheme-handler/mailto;application/x-xpinstall;
+Categories=Email;Network;
+
+[Desktop Action ComposeMessage]
+Name=Write new message
+Exec=/usr/lib/thunderbird/thunderbird -compose
+
+[Desktop Action OpenAddressBook]
+Name=Open address book
+Exec=/usr/lib/thunderbird/thunderbird -addressbook
